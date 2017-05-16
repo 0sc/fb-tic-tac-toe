@@ -1,0 +1,95 @@
+GIT
+  remote: https://github.com/hyperoslo/facebook-messenger.git
+  revision: ce8bd7b5ec13d55e8f90223a13e88685d791bf6c
+  specs:
+    facebook-messenger (0.12.0)
+      httparty (~> 0.13, >= 0.13.7)
+      rack (>= 1.6.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws_cf_signer (0.1.3)
+    cairo (1.15.7)
+      native-package-installer
+      pkg-config (>= 1.1.5)
+    cairo-gobject (3.1.3)
+      cairo
+      glib2 (= 3.1.3)
+    cloudinary (1.8.1)
+      aws_cf_signer
+      rest-client
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    gdk_pixbuf2 (3.1.3)
+      gio2 (= 3.1.3)
+    gio2 (3.1.3)
+      glib2 (= 3.1.3)
+      gobject-introspection (= 3.1.3)
+    glib2 (3.1.3)
+      native-package-installer
+      pkg-config
+    gobject-introspection (3.1.3)
+      glib2 (= 3.1.3)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    httparty (0.15.3)
+      multi_xml (>= 0.5.2)
+    mercenary (0.3.6)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.1.0)
+    multi_xml (0.6.0)
+    native-package-installer (1.0.1)
+    netrc (0.11.0)
+    nokogiri (1.7.2)
+      mini_portile2 (~> 2.1.0)
+    pango (3.1.3)
+      cairo (>= 1.14.0)
+      cairo-gobject (= 3.1.3)
+      gobject-introspection (= 3.1.3)
+    pg (0.20.0)
+    pkg-config (1.2.0)
+    rack (2.0.3)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    roo (2.7.1)
+      nokogiri (~> 1)
+      rubyzip (~> 1.1, < 2.0.0)
+    rsvg2 (3.1.3)
+      cairo (>= 1.12.8)
+      gdk_pixbuf2 (= 3.1.3)
+    ruby-progressbar (1.8.1)
+    rubyzip (1.2.1)
+    squib (0.13.2)
+      cairo (~> 1.15.5)
+      gio2 (~> 3.1.1)
+      gobject-introspection (~> 3.1.1)
+      mercenary (~> 0.3.4)
+      nokogiri (~> 1.7.0)
+      pango (~> 3.1.1)
+      roo (~> 2.7.0)
+      rsvg2 (~> 3.1.1)
+      ruby-progressbar (~> 1.8)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cloudinary
+  facebook-messenger!
+  pg (~> 0.18)
+  rack
+  squib
+
+RUBY VERSION
+   ruby 2.4.1p111
+
+BUNDLED WITH
+   1.14.6
