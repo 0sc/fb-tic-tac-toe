@@ -1,4 +1,4 @@
-require 'facebook/messenger'
-require_relative 'server'
+require "facebook/messenger"
+require_relative "server"
 
 run Facebook::Messenger::Server
