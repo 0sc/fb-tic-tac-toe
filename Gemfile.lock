@@ -85,7 +85,6 @@ DEPENDENCIES
   cloudinary
   facebook-messenger!
   pg (~> 0.18)
-  rack
   squib
 
 RUBY VERSION
